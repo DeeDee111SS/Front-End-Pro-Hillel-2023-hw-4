@@ -1,6 +1,6 @@
-let operator = prompt('What do you want to do? (add, sub, mult, div)'); // or prompt('Enter the operator (" + ", " - ", " * ", " / ")')
-let a = prompt('Enter the first number');
-let b = prompt('Enter the second number');
+const operator = prompt('What do you want to do? (add, sub, mult, div)'); // or prompt('Enter the operator (" + ", " - ", " * ", " / ")')
+const a = prompt('Enter the first number');
+const b = prompt('Enter the second number');
 
 
 function calculate(a, b, operator) {
